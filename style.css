@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --asmani: rgb(39, 187, 249);
+  --light: rgb(165, 226, 248);
+}
+
+/*-----------------Logo Section----------------*/
+header .logo {
+  text-align: center;
+}
+header .logo #head {
+  font-size: 4rem;
+}
+header .logo #head,
+#title {
+  font-family: "Lobster", cursive;
+}
+header .logo #title {
+  margin-top: -0.5rem;
+  margin-left: 5rem;
+}
+/*-----------------End Logo Section----------------*/
+
+/*-----------------Nav Section----------------*/
+header nav {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+header nav a {
+  text-decoration: none;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: black;
+}
+header nav a:hover {
+  color: var(--asmani);
+}
+
+/*-----------------First Section----------------*/
+.bg-width {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  margin: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+h1 {
+  font-size: 40px;
+  line-height: 4rem;
+  font-weight: 50px;
+}
+.half-width h3 {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.orange {
+  color: var(--asmani);
+}
+.half-width img {
+  height: 600px;
+}
+.content {
+  padding-left: 4rem;
+  padding-top: 4rem;
+}
+.button {
+  text-decoration: none;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 50px;
+  background-image: linear-gradient(var(--asmani), var(--light));
+}
+.btn {
+  margin-top: 2rem;
+}
