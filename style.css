@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 :root {
   --asmani: rgb(39, 187, 249);
@@ -12,6 +12,7 @@ body {
 
 /*-----------------Logo Section----------------*/
 header .logo {
+    margin-top: 1rem;
   text-align: center;
 }
 header .logo #head {
