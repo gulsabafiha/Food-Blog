@@ -6,7 +6,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500px;
-  background-image: linear-gradient(to right,rgba(200, 235, 245, 0.589),rgba(216, 243, 240, 0.486));
+  background-image: linear-gradient(to right,rgba(165, 226, 248, 0.219),rgba(216, 243, 240, 0.486));*/
 }
 :root {
   --asmani: rgb(39, 187, 249);
@@ -52,7 +52,7 @@ header nav a:hover {
 .half-width {
   width: 50%;
   margin: 1rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
   padding-right: 2rem;
 }
 h1 {
@@ -90,7 +90,7 @@ p{
   color: rgb(112, 21, 197);
 }
 .btn {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 /*-----------------End of First Section----------------*/
 
@@ -107,6 +107,9 @@ p{
   text-align: center;
   margin: 4rem;
   padding: 2rem;
+}
+.third .heading h1{
+  margin-bottom: 1rem;
 }
 .third .third-width{
   display: flex;
@@ -150,32 +153,36 @@ margin-top: -2rem;
 /*----------------- Fifth Section----------------*/
 .fifth-width{
   padding: 2rem;
-  margin: 4rem;
+  margin-top: 5rem;
   text-align: center;
 }
 .fifth-width .btn {
   margin-top: 4rem;
 }
 .fifth-width .btn a{
-  margin-right: 4rem;
-  
+  margin-right: 4rem; 
 }
 .gallery-one,.gallery-two{
   display: flex;
   justify-content: center;
 }
 .container .img-one{
-  margin: 1rem;
+  height: 500px;
+  width: 400px;
+  margin: 2rem;
+  margin-bottom:1rem;
   padding: 1rem;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.349);
 }
 .container .img-one img{
-  height: 500px;
-  width: 400px;
+  height: 400px;
+  width: 300px;
   border-radius: 20px;
 }
-
+.fifth{
+  margin-bottom: 4rem;
+}
 /*-----------------End of Fifth Section----------------*/
 
 /*-----------------Fourth Section----------------*/
@@ -189,21 +196,20 @@ margin-top: -2rem;
 .fourth-main .fourth {
   padding-right: 4rem;
 }
-
 .two-sec{
   background-image:linear-gradient(rgba(0, 0, 0, 0.24),gray) ,url(img/third.jpg);
   background-size: cover;
   background-blend-mode: multiply;
   display: flex;
   justify-content: center;
-  margin: 2rem 0;
 }
+
 
 /*-----------------End of Fourth Section----------------*/
 
 /*-----------------last Section----------------*/
 footer{
-  background-color: var(--light);
+  background-color: rgba(165, 226, 248, 0.219);
   height: 200px;
 }
 footer .last{
