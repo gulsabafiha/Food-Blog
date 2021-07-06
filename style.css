@@ -6,7 +6,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500px;
-  background-image: linear-gradient(to right,rgba(165, 226, 248, 0.219),rgba(216, 243, 240, 0.486));*/
+  background-image: linear-gradient(to right,rgba(165, 226, 248, 0.219),rgba(216, 243, 240, 0.486));
 }
 :root {
   --asmani: rgb(39, 187, 249);
@@ -40,6 +40,7 @@ header nav a {
   padding-right: 2rem;
   color: black;
   transition: 0.5s;
+  font-weight: bold;
 }
 header nav a:hover {
   color: var(--asmani);
@@ -84,10 +85,12 @@ p{
   border-radius: 50px;
   background-image: linear-gradient(to right, var(--asmani), var(--light));
   transition: 0.5s;
+  text-transform: uppercase;
  
 }
 .button:hover {
-  color: rgb(112, 21, 197);
+  color: rgb(18, 18, 19);
+  box-shadow: 0 4px 8px 0 var(--light);
 }
 .btn {
   margin-top: 4rem;
@@ -114,15 +117,15 @@ p{
 .third .third-width{
   display: flex;
   justify-content:space-between;
- padding-left: 2rem;
-margin-top: -2rem;
+  padding-left: 2rem;
+  margin-top: -2rem;
 }
-.third .third-width #can,#ice,#proco{
-  height: 220px;
-  width: 320px;
+.third .third-width img{
+  height: 250px;
+  width: 350px;
   padding: 1rem; 
 }
-.third .third-width .one,.two,.three{
+.third .third-width .one{
   height: 500px;
   width: 350px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.349);
@@ -130,16 +133,13 @@ margin-top: -2rem;
   border-radius: 5px;
   margin-right: 4rem;
   border-radius: 20px;
-}
-.third .third-width .three:hover{
-  box-shadow: 0 4px 8px 0 var(--light);
+  background-color: whitesmoke;
+  transition: 0.5s;
 }
 .third .third-width .one:hover{
   box-shadow: 0 4px 8px 0 var(--light);
 }
-.third .third-width .two:hover{
-  box-shadow: 0 4px 8px 0 var(--light);
-}
+
 .third .third-width .content{
   margin-top: -2rem;
   margin-left: -2rem;
@@ -174,6 +174,11 @@ margin-top: -2rem;
   padding: 1rem;
   border-radius: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.349);
+  background-color: whitesmoke;
+  transition: 0.5s;
+}
+.container .img-one:hover{
+  box-shadow: 0 4px 8px 0 var(--light);
 }
 .container .img-one img{
   height: 400px;
