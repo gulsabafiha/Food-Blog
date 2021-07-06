@@ -1,10 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500px;
+  background-image: linear-gradient(to right,rgba(200, 235, 245, 0.589),rgba(216, 243, 240, 0.486));
 }
 :root {
   --asmani: rgb(39, 187, 249);
@@ -37,6 +39,7 @@ header nav a {
   padding-left: 2rem;
   padding-right: 2rem;
   color: black;
+  transition: 0.5s;
 }
 header nav a:hover {
   color: var(--asmani);
@@ -53,7 +56,7 @@ header nav a:hover {
   padding-right: 2rem;
 }
 h1 {
-  font-size: 42px;
+  font-size: 50px;
   line-height: 4rem;
   font-weight: 50px;
 }
@@ -76,10 +79,12 @@ p{
 }
 .button {
   text-decoration: none;
-  padding: 10px 30px;
+  padding: 20px 40px;
   color: white;
   border-radius: 50px;
   background-image: linear-gradient(to right, var(--asmani), var(--light));
+  transition: 0.5s;
+ 
 }
 .button:hover {
   color: rgb(112, 21, 197);
@@ -106,7 +111,7 @@ p{
 .third .third-width{
   display: flex;
   justify-content:space-between;
- padding-left: 4rem;
+ padding-left: 2rem;
 margin-top: -2rem;
 }
 .third .third-width #can,#ice,#proco{
@@ -115,7 +120,7 @@ margin-top: -2rem;
   padding: 1rem; 
 }
 .third .third-width .one,.two,.three{
-  height: 450px;
+  height: 500px;
   width: 350px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.349);
   transition: 0.3s;
@@ -136,20 +141,62 @@ margin-top: -2rem;
   margin-top: -2rem;
   margin-left: -2rem;
 }
-.third .third-width .content h2{
-  padding-bottom: 1rem;
+.third .third-width .content h2,p{
+  margin-bottom: 1rem;
+  margin-left: -1rem;
 }
 /*-----------------End of Third Section----------------*/
+
+/*----------------- Fifth Section----------------*/
+.fifth-width{
+  padding: 2rem;
+  margin: 4rem;
+  text-align: center;
+}
+.fifth-width .btn {
+  margin-top: 4rem;
+}
+.fifth-width .btn a{
+  margin-right: 4rem;
+  
+}
+.gallery-one,.gallery-two{
+  display: flex;
+  justify-content: center;
+}
+.container .img-one{
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.349);
+}
+.container .img-one img{
+  height: 500px;
+  width: 400px;
+  border-radius: 20px;
+}
+
+/*-----------------End of Fifth Section----------------*/
 
 /*-----------------Fourth Section----------------*/
 .fourth-main{
   display: flex;
   justify-content: space-between;
   padding: 9rem;
-  
+  color: aliceblue;
+  font-weight: bolder; 
 }
-.fourth-main .fourth #weight{
-  font-weight: bolder;
+.fourth-main .fourth {
+  padding-right: 4rem;
+}
+
+.two-sec{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.24),gray) ,url(img/third.jpg);
+  background-size: cover;
+  background-blend-mode: multiply;
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
 }
 
 /*-----------------End of Fourth Section----------------*/
